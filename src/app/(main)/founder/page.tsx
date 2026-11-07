@@ -18,7 +18,7 @@ export default function ContactPage() {
             <div className="overflow-hidden rounded-full border-4 border-slate-200 shadow-lg">
               <img
                 src="https://ik.imagekit.io/fl2lbswwo/avatar.jpeg?updatedAt=1757456439459"
-                alt="Vlad Sazonau"
+                alt="Anubhav Singh"
                 width={160}
                 height={160}
                 loading="lazy"
@@ -30,7 +30,7 @@ export default function ContactPage() {
 
           <AnimatedDiv transition={blockEnterSpring(0.05)}>
             <h1 className="text-center text-4xl font-bold tracking-tight text-slate-900 md:text-5xl">
-              Vlad Sazonau
+              Anubhav Singh
             </h1>
             <p className="mt-3 text-center text-xl text-slate-600 md:text-2xl">
               Software Engineer & Design Enthusiast
@@ -61,7 +61,7 @@ export default function ContactPage() {
             transition={blockEnterSpring(0.15)}
           >
             <Link
-              href="https://vladsazon.com"
+              href="https://example.com"
               target="_blank"
               rel="noopener noreferrer"
               className="font-medium text-black underline transition-all hover:opacity-80"

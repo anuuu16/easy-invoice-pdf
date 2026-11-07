@@ -15,7 +15,7 @@ describe("buildFounderJsonLdGraph", () => {
     expect(parsed["@graph"][0]).toMatchObject({
       "@type": "Person",
       "@id": JSON_LD_IDS.person,
-      name: "Vlad Sazonau",
+      name: "Anubhav Singh",
     });
 
     expect(parsed["@graph"][1]).toMatchObject({

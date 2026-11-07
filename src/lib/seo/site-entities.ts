@@ -47,10 +47,10 @@ export const HOME_PAGE_DESCRIPTION =
 
 export const FOUNDER_PAGE_URL = `${PROD_WEBSITE_URL}/founder`;
 
-export const FOUNDER_PAGE_TITLE = "Vlad Sazonau | Founder of EasyInvoicePDF";
+export const FOUNDER_PAGE_TITLE = "Anubhav Singh | Founder of EasyInvoicePDF";
 
 export const FOUNDER_PAGE_DESCRIPTION =
-  "Meet Vlad Sazonau, founder of EasyInvoicePDF, the free open-source invoice PDF generator with live preview. Product engineer and design enthusiast.";
+  "Meet Anubhav Singh, founder of EasyInvoicePDF, the free open-source invoice PDF generator with live preview. Product engineer and design enthusiast.";
 
 export const OG_IMAGE_URL = `${STATIC_ASSETS_URL}/easy-invoice-opengraph-image.png?v=1755773879597`;
 
@@ -125,7 +125,7 @@ export function buildPerson() {
     "@type": "Person" as const,
     "@id": JSON_LD_IDS.person,
     url: FOUNDER_PAGE_URL,
-    name: "Vlad Sazonau",
+    name: "Anubhav Singh",
     givenName: "Uladzislau",
     familyName: "Sazonau",
     description:
@@ -134,7 +134,7 @@ export function buildPerson() {
       "@type": "ImageObject" as const,
       "@id": JSON_LD_IDS.personImage,
       url: FOUNDER_AVATAR_URL,
-      caption: "Vlad Sazonau",
+      caption: "Anubhav Singh",
     },
     sameAs: [PERSONAL_WEBSITE_URL, GITHUB_URL, LINKEDIN_URL, TWITTER_URL],
   };

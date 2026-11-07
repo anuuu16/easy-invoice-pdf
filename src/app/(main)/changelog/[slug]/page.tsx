@@ -56,7 +56,7 @@ export async function generateMetadata({
   return {
     title: entry.metadata.title || `Update ${formattedDate}`,
     description: entry.metadata.description,
-    authors: [{ name: "Vlad Sazonau", url: PERSONAL_WEBSITE_URL }],
+    authors: [{ name: "Anubhav Singh", url: PERSONAL_WEBSITE_URL }],
     alternates: {
       canonical: entryUrl,
     },

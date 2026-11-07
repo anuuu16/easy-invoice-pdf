@@ -179,7 +179,7 @@ export function Footer({ links, translations }: FooterProps) {
             <a href="/founder">
               <img
                 src="https://ik.imagekit.io/fl2lbswwo/avatar.jpeg?updatedAt=1757456439459"
-                alt="Vlad Sazonau"
+                alt="Anubhav Singh"
                 className="size-6 rounded-full"
                 height="24"
                 width="24"
@@ -190,7 +190,7 @@ export function Footer({ links, translations }: FooterProps) {
             <span>
               {footerCreatedBy}{" "}
               <a href="/founder" className="underline hover:text-black">
-                Vlad Sazonau
+                Anubhav Singh
               </a>
             </span>
           </div>

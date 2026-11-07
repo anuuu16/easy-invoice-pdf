@@ -263,7 +263,7 @@ test.describe("About page", () => {
     await expect(llmsTxtLink).toBeVisible();
     await expect(llmsTxtLink).toHaveAttribute("href", "/llms.txt");
 
-    await expect(footer.getByText("Made by Vlad Sazonau")).toBeVisible();
+    await expect(footer.getByText("Made by Anubhav Singh")).toBeVisible();
   });
 
   test("should display about page content in French", async ({ page }) => {

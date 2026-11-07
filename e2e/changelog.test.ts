@@ -131,7 +131,7 @@ test.describe("Changelog page", () => {
 
     // Check author information
     await expect(page.getByTestId("author-info-text")).toHaveText(
-      "Vlad SazonauFounder,  EasyInvoicePDF",
+      "Anubhav SinghFounder,  EasyInvoicePDF",
     );
     await expect(page.getByTestId("author-info-img")).toBeVisible();
 

@@ -18,9 +18,9 @@ export const metadata: Metadata = {
     "invoice generator",
     "legal",
   ],
-  authors: [{ name: "Vlad Sazonau", url: PERSONAL_WEBSITE_URL }],
-  creator: "Vlad Sazonau",
-  publisher: "Vlad Sazonau",
+  authors: [{ name: "Anubhav Singh", url: PERSONAL_WEBSITE_URL }],
+  creator: "Anubhav Singh",
+  publisher: "Anubhav Singh",
   alternates: {
     canonical: "https://easyinvoicepdf.com/tos",
   },

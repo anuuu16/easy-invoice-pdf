@@ -64,7 +64,7 @@ describe("site-entities", () => {
 
   it("should use real name without role suffix for buildPerson", () => {
     const person = buildPerson();
-    expect(person.name).toBe("Vlad Sazonau");
+    expect(person.name).toBe("Anubhav Singh");
     expect(person.name).not.toContain("Founder");
     expect(person.sameAs).toHaveLength(4);
   });

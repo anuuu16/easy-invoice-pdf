@@ -92,7 +92,7 @@ const TAB_INVOICE_FORM = MOBILE_TABS_VALUES[0];
 const TAB_INVOICE_PREVIEW = MOBILE_TABS_VALUES[1];
 
 /**
- * "Made by Vlad Sazonau" with the avatar, linking to `/founder`.
+ * "Made by Anubhav Singh" with the avatar, linking to `/founder`.
  *
  * The mobile dock and the desktop column render the same credit; before this they held two
  * copies of the same markup, differing only in a shade of grey and a top margin.
@@ -108,7 +108,7 @@ function FounderCredit({ className }: { className?: string }) {
       <a href={"/founder"}>
         <img
           src="https://ik.imagekit.io/fl2lbswwo/avatar.jpeg?updatedAt=1757456439459"
-          alt="Vlad Sazonau"
+          alt="Anubhav Singh"
           className="size-6 rounded-full"
           height="24"
           width="24"
@@ -119,7 +119,7 @@ function FounderCredit({ className }: { className?: string }) {
       <span>
         Made by{" "}
         <a href={"/founder"} className="underline hover:text-black">
-          Vlad Sazonau
+          Anubhav Singh
         </a>
       </span>
     </div>

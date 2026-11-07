@@ -218,7 +218,7 @@ export const REDDIT_COMMUNITY_URL = "https://www.reddit.com/r/EasyInvoicePDF/";
 export const DISCORD_COMMUNITY_URL = "https://discord.gg/gAr3HteWta";
 export const DISCORD_FEEDBACK_URL = "https://discord.gg/kxTCK2Q7";
 
-export const PERSONAL_WEBSITE_URL = "https://vladsazon.com";
+export const PERSONAL_WEBSITE_URL = "https://example.com";
 
 export const BUG_REPORT_URL =
   "https://pdfinvoicegenerator.userjot.com/board/bugs";

@@ -15,21 +15,22 @@ import {
 
 import { FounderJsonLd } from "./founder-json-ld";
 
-const ogImageAlt = "Vlad Sazonau, founder of EasyInvoicePDF — product engineer";
+const ogImageAlt =
+  "Anubhav Singh, founder of EasyInvoicePDF — product engineer";
 
 export const metadata: Metadata = {
   title: FOUNDER_PAGE_TITLE,
   description: FOUNDER_PAGE_DESCRIPTION,
   keywords: [
-    "Vlad Sazonau",
+    "Anubhav Singh",
     "EasyInvoicePDF",
     "founder",
     "product engineer",
     "invoice PDF generator",
   ],
-  authors: [{ name: "Vlad Sazonau", url: PERSONAL_WEBSITE_URL }],
-  creator: "Vlad Sazonau",
-  publisher: "Vlad Sazonau",
+  authors: [{ name: "Anubhav Singh", url: PERSONAL_WEBSITE_URL }],
+  creator: "Anubhav Singh",
+  publisher: "Anubhav Singh",
   alternates: {
     canonical: FOUNDER_PAGE_URL,
   },

@@ -32,9 +32,9 @@ export const metadata: Metadata = {
     "easyinvoicepdf demo",
     "pdf invoice generator guide",
   ],
-  authors: [{ name: "Vlad Sazonau", url: PERSONAL_WEBSITE_URL }],
-  creator: "Vlad Sazonau",
-  publisher: "Vlad Sazonau",
+  authors: [{ name: "Anubhav Singh", url: PERSONAL_WEBSITE_URL }],
+  creator: "Anubhav Singh",
+  publisher: "Anubhav Singh",
   alternates: {
     canonical: HOW_IT_WORKS_PAGE_URL,
     types: {

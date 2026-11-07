@@ -16,7 +16,7 @@ export function ChangelogAuthorByline() {
         className="group"
       >
         <img
-          alt="Vlad Sazonau"
+          alt="Anubhav Singh"
           loading="lazy"
           width="36"
           height="36"
@@ -32,7 +32,7 @@ export function ChangelogAuthorByline() {
           rel="noopener noreferrer"
           className="text-sm font-medium text-neutral-800 no-underline hover:underline hover:underline-offset-2 dark:text-neutral-300"
         >
-          Vlad Sazonau
+          Anubhav Singh
         </Link>
         <span className="text-sm text-slate-500 dark:text-neutral-400">
           Founder,{" "}

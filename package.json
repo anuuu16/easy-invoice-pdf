@@ -15,8 +15,8 @@
     "pdf invoice template",
     "professional invoice"
   ],
-  "homepage": "https://easyinvoicepdf.com",
-  "author": "Vlad Sazonau (https://vladsazon.com)",
+  "homepage": "",
+  "author": "Anubhav Singh (https://example.com)",
   "scripts": {
     "test": "vitest run",
     "check": "pnpm lint && pnpm type-check && pnpm format:check && vitest run",

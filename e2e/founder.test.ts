@@ -11,18 +11,18 @@ test.describe("Founder page", () => {
 
     // Heading and tagline
     await expect(
-      page.getByRole("heading", { name: "Vlad Sazonau", level: 1 }),
+      page.getByRole("heading", { name: "Anubhav Singh", level: 1 }),
     ).toBeVisible();
     await expect(
       page.getByText("Software Engineer & Design Enthusiast"),
     ).toBeVisible();
 
     // Avatar (the page one, the footer has a smaller avatar with the same alt text)
-    await expect(page.getByAltText("Vlad Sazonau").first()).toBeVisible();
+    await expect(page.getByAltText("Anubhav Singh").first()).toBeVisible();
 
     // Social links (the links are labelled with aria-label)
     const socialLinks = [
-      { name: "Visit website", href: "https://vladsazon.com" },
+      { name: "Visit website", href: "https://example.com" },
       { name: "Visit Twitter", href: TWITTER_URL },
       { name: "Visit LinkedIn", href: LINKEDIN_URL },
       // the personal GitHub profile, not the repository
@@ -52,7 +52,7 @@ test.describe("Founder page", () => {
 
     await expect(page).toHaveURL("/founder");
     await expect(
-      page.getByRole("heading", { name: "Vlad Sazonau", level: 1 }),
+      page.getByRole("heading", { name: "Anubhav Singh", level: 1 }),
     ).toBeVisible();
   });
 });
